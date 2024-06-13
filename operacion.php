@@ -18,6 +18,7 @@
     </script>
 </head>
 <body>
+    <p>Bienvenidos a esta Area de codificacion</p>
     <h1>Operaciones básicas</h1>
 
     <form method="post" onsubmit="return validateForm()">
