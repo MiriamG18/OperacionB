@@ -31,6 +31,7 @@
         <input type="submit" name="operation" value="Restar">
         <input type="submit" name="operation" value="Sumar">
         <input type="submit" name="operation" value="Dividir">
+        <input type="submit" name="operation" value="Multiplicar">
         <p id="error-message" style="color: red;"></p>
     </form>
 
@@ -60,6 +61,9 @@
                     $resultado = $num1 / $num2;
                     echo "<h2>La división de $num1 / $num2 es: $resultado</h2>";
                 }
+            } elseif ($operation == "Multiplicar") {
+                $resultado = $num1 * $num2;
+                echo "<h2>La multiplicación de $num1 * $num2 es: $resultado</h2>";
             }
         }
     }
